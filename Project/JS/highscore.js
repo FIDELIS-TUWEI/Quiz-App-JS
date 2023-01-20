@@ -39,7 +39,7 @@ btnGoHome.innerText = "Go Home";
 
 goHomeButton.appendChild(btnGoHome);
 
-/* const icon5 = document.createElement('i');
+const icon5 = document.createElement('i');
 icon5.setAttribute('class', '<i class="fa-solid fa-house"></i>');
 icon5.setAttribute('aria-hidden', 'true');
-goHomeButton.appendChild(icon5) */
+goHomeButton.appendChild(icon5)
