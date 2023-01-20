@@ -18,11 +18,11 @@ const btn1 = document.createElement('button');
 btn1.setAttribute('id', 'play');
 btn1.innerText = "Play";
 
-const i1 = document.createElement('i');
-i1.setAttribute('class', 'fa ml-2 fa-play');
-i1.setAttribute('aria-hidden', 'true');
-btn1.appendChild(i1);
-playButton.appendChild(btn1);
+const icon1 = document.createElement('i');
+icon1.setAttribute('class', 'fa ml-2 fa-play');
+icon1.setAttribute('aria-hidden', 'true');
+btn1.appendChild(icon1);
+playButton.appendChild(btn1);con
 
 
 // High score button
@@ -34,8 +34,8 @@ let btn2 = document.createElement('a');
 btn2.setAttribute('id', 'highscores');
 btn2.innerText = "High Scores";
 
-const i2 = document.createElement('i');
-i2.setAttribute('class', 'fa ml-2 fa-trophy');
-i2.setAttribute('aria-hidden', 'true');
-btn2.appendChild(i2);
+const icon2 = document.createElement('i');
+icon2.setAttribute('class', 'fa ml-2 fa-trophy');
+icon2.setAttribute('aria-hidden', 'true');
+btn2.appendChild(icon2);
 highScoreButton.appendChild(btn2);
