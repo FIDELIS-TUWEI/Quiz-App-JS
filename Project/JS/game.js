@@ -163,7 +163,7 @@ let questions = [];
 // async await for fetching questions from open Trivia API DB
 async function getData() {
     try {
-        const response = await fetch("https://opentdb.com/api.php?amount=10&category=18&difficulty=medium&type=multiple");
+        const response = await fetch("https://opentdb.com/api.php?amount=10");
     
         const responsedData = await response.json();
 
