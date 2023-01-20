@@ -7,7 +7,7 @@ document.body.append(mainContainer);
 const indexHeader = document.createElement('div');
 indexHeader.setAttribute('class', 'index__header');
 indexHeader.innerHTML = `<h1>Quick Quiz</h1>`
-document.body.appendChild(indexHeader);
+mainContainer.appendChild(indexHeader)
 
 // Play Button
 const playButton = document.createElement('a');

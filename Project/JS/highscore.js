@@ -43,3 +43,16 @@ const icon5 = document.createElement('i');
 icon5.setAttribute('class', '<i class="fa-solid fa-house"></i>');
 icon5.setAttribute('aria-hidden', 'true');
 goHomeButton.appendChild(icon5)
+
+
+// LOCAL STORAGE
+
+// Get all high scores
+
+const allHighScores = document.querySelector("#allHighScores");
+
+const highScores = JSON.parse(localStorage.getItem("highScores")) || [];
+allHighScores.innerHTML = [];
+highScores.map(score => {
+    return `<li class="high-score"> ${score.name} ${score.score}</li>`
+}).join("");
